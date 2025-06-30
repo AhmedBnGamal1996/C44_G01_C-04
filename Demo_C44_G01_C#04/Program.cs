@@ -439,7 +439,7 @@
             //    // Console.WriteLine(number[0]);
             //    Console.WriteLine(number);
             //}
-            
+
             //Person[] persons = new Person[]
             //{
             //    new Person() { Id = 1 , Name = "Mariam" , Age = 20 },
@@ -457,8 +457,63 @@
 
 
 
-            #region Looping Statement { While - do while }
+            #region Video 7 Looping Statement { While - do while }
 
+
+            #region for - foreach
+
+            //for (int i = 1; i <= 10 ; i++)
+            //{
+            //   // if (i == 4) continue;
+            //   // if (i == 3) break;
+
+            //    Console.WriteLine(i);
+            //}
+
+
+            #endregion
+
+
+            #region do while
+            // Let user enter an even number
+            // if value odd or it's not a number ==> enter value again
+            // else ==> print the even number 
+            //int number;
+            //bool isParsed;
+
+            //do
+            //{
+            //    Console.WriteLine("Please Enter an even number ");
+            //    isParsed = int.TryParse(Console.ReadLine(), out number);
+            //}
+            //while (!isParsed || number % 2 == 1 );
+
+            //Console.WriteLine(number);
+            #endregion
+
+
+            #region While
+
+            // take a number from user and print 
+            // a sequence of number entered 10 
+            //5 => 5,6,7,8,9,10
+            //2 => 2,3,4,5,6,7,8,9,10
+            //int number;
+            //bool isParsed;
+            //Console.WriteLine("please enter a number <= 10 ");
+            //isParsed= int.TryParse(Console.ReadLine(), out number);
+            //Console.Clear();
+            //if (isParsed )
+            //{
+            //    while (number <= 10 )
+            //    {
+            //        Console.WriteLine(number);
+            //        number++;
+            //    }
+            //}
+                
+
+            #endregion
 
 
             #endregion
