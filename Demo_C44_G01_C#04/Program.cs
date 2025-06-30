@@ -182,7 +182,7 @@ namespace Demo_C44_G01_C_04
 
             #endregion
 
-            #region Video 3 & Switch C# 7
+            #region Video 3 & Switch C# 7 Pattern-Mathching When Keyword 
 
             #region Pattern Matching 
             ///////  object , integer , double 
@@ -251,6 +251,142 @@ namespace Demo_C44_G01_C_04
 
             #endregion
 
+            #region Video 4 Switch C# 8.0 [ Pattern Matching without alies - Switch Experssion ]
+
+            #region Pattern Matching without alies
+            // object - integer - double 
+            //object obj = 10;
+            //switch (obj)
+            //{
+            //    case int when (int)obj <= 10 :
+            //        Console.WriteLine("integer");
+            //        break;
+            //    case float:
+            //        Console.WriteLine("float");
+            //        break;
+            //    case double:
+            //        Console.WriteLine("double");
+            //        break;
+            //    default: Console.WriteLine("Unknown Data Type ");
+            //        break;
+            #endregion
+
+
+            #region Switch case before pattern matching 
+            //// 1 ==> Msg = Option 1 
+            //int Number;
+            //string result;
+            //Console.WriteLine("Please Enter the number[ 1,2,3]");
+            //int.TryParse(Console.ReadLine(), out Number);
+            //switch (Number)
+            //{
+            //    case 1:
+            //        result = "Option 1";
+            //        break;
+
+            //    case 2:
+            //        result = "Option 2";
+            //        break;
+            //    case 3:
+            //        result = "Option 3";
+            //        break;
+            //    default:
+            //        result = "Unknown Option";
+            //            break; 
+            //}
+            #endregion
+
+
+
+            #region Switch Expression [ Constant Pattern - discard Pattern ] 
+
+            /// Msg = Option 1 
+            //int number;
+            //Console.WriteLine("Please Enter a Number ");
+            //int.TryParse(Console.ReadLine(), out number);
+            //string result = number switch
+            //{
+            //    1 => "Option 1", 
+            //    2 => "Option 2", 
+            //    3 => "Option 3", 
+            //    _ => "Unknown Option"   // Discard Pattern 
+            //};
+            //Console.WriteLine(result);
+
+
+
+            #endregion
+
+
+            #region Property Pattern
+            //Person person = new Person() { Id = 10, Name = "Mariam", Age = 20 };
+            //string result = person switch
+            //{
+            //    {Age : 30} => "Age = 30 ",
+            //    {Id:10 , Name : "Mariam", Age:20 } => "Hello Mariam",
+            //    {Id:10 } => "Hello Mariam with id 10 ", // Property Pattern
+            //    {Id:300} => "id is 300",
+            //    _ => "Hello Person"
+            //};
+            //Console.WriteLine(result);
+
+
+            #endregion
+
+
+            #region Nullable type - Relational Pattern
+
+            //    // int? = Nullable integer
+            //    // int? x = null ; 
+            //    int? number = null;
+            //string result = number switch
+            //{
+            //    null => "null",
+            //    int x when x > 0 => "Positive Number" , 
+            //    int y when y > 0 => "Negative Number" , 
+            //    _ => "Zero"
+            //};
+            //Console.WriteLine(result);
+
+            #endregion
+
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
@@ -259,15 +395,7 @@ namespace Demo_C44_G01_C_04
 
 
 
-
-
-
-
-
-
-
-
     }
-    }
+
 }
 
