@@ -8,5 +8,8 @@ namespace Demo_C44_G01_C_04
 {
     internal class Person
     {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public int Age { get; set; }
     }
 }

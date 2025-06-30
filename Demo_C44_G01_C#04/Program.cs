@@ -182,16 +182,92 @@ namespace Demo_C44_G01_C_04
 
             #endregion
 
-             
+            #region Video 3 & Switch C# 7
+
+            #region Pattern Matching 
+            ///////  object , integer , double 
+            /////
+            //object obj ;        // allocate 4 bytes in stack
+            //obj = 10;  // Boxing
+            //switch (obj)
+            //{
+            //    case int X :
+            //        Console.WriteLine("Integer");
+            //        break ;
+            //    case float X :
+            //        Console.WriteLine("Float");
+            //        break ;
+            //    case double X:
+            //        Console.WriteLine("Double");
+            //        break;
+            //    default :
+            //        Console.WriteLine("Unknown DataType");
+            //        break ;
+            #endregion
+
+            #region Case Guard ( When ) 
+
+            /////  object , integer , double 
+
+            //object obj;        // allocate 4 bytes in stack
+            //obj = 9;  // Boxing
+            //switch (obj)
+            //{
+            //    case int X when X < 10 && X >= 5:
+            //        Console.WriteLine("Integer");
+            //        break;
+            //    case float X:
+            //        Console.WriteLine("Float");
+            //        break;
+            //    case double X:
+            //        Console.WriteLine("Double");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown DataType");
+            //        break;
+
+            #endregion
+
+            #region User Defined Data Type 
+            /// [ Person ]
+            //object obj = new Person() { Id = 1 , Name = "Mariam" , Age = 20 };
+
+            //switch(obj) {   
+            //    case int input:
+            //        Console.WriteLine("Integer Value ");
+            //        break;
+            //        case float input:
+            //        Console.WriteLine("Float Value");
+            //        break;
+            //        case Person input when input.Name == "mariam" : Console.WriteLine("Person Value"); break;
+
+            //    default:
+            //        Console.WriteLine("Unknown Data Type");
+            //        break;
 
 
+            #endregion
 
 
-
-
+            #endregion
 
 
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
     }
 }
+
