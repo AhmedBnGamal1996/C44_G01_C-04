@@ -354,6 +354,39 @@ namespace Demo_C44_G01_C_04
             #endregion
 
 
+            #region Video 5 Switch C# 9.0 [ Relational Pattern , Logical Pattern , Enhanced Pattern ]
+
+            #region Relational Pattern
+            //Console.WriteLine("Please Enter a number");
+            //int.TryParse(Console.ReadLine(), out int number);
+            //string result = number switch
+            //{
+            //    < 10 => "Number < 10",
+            //    > 20 => "Number > 10 " , 
+            //    >=10 and <=20 => "Number Between 10 , 20 "
+            //}; 
+
+            #endregion
+
+
+            #region Enhanced Property Pattern 
+           
+
+            //Person person = new Person() { Id = 1, Name = "samy", Age = 20 };
+
+            //string result = person switch
+            //{
+            //    {Name: "samy", Age:  >10 }=>"Hello Samy",
+            //    {Name: "omar" , Age: >=20 and <= 30 }=>"Hello Omar",
+            //    {Age: >= 40 and <= 50 }=>"Age between 40 and 50" , 
+            //    _=> "Unknown Person"
+            //};
+            //Console.WriteLine(result);
+
+
+            #endregion
+
+            #endregion
 
 
 
