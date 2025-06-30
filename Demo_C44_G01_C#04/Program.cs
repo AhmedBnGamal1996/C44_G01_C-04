@@ -1,5 +1,4 @@
-﻿
-namespace Demo_C44_G01_C_04
+﻿namespace Demo_C44_G01_C_04
 {
     internal class Program
     {
@@ -370,7 +369,7 @@ namespace Demo_C44_G01_C_04
 
 
             #region Enhanced Property Pattern 
-           
+
 
             //Person person = new Person() { Id = 1, Name = "samy", Age = 20 };
 
@@ -388,10 +387,74 @@ namespace Demo_C44_G01_C_04
 
             #endregion
 
+            #region Video 6 Looping Statements [ For - ForEach ]
+
+            #region intro 
+
+            ////Console.WriteLine(1);
+            ////Console.WriteLine(2);
+            ////Console.WriteLine(3);
+            ////Console.WriteLine(4);
+            ////Console.WriteLine(5);
+            ////Console.WriteLine(6);
+            ////Console.WriteLine(7);
+            ////Console.WriteLine(8);
+            ////Console.WriteLine(9);
+            ////Console.WriteLine(10);
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 100; i >= 1; i--)
+            //{
+            //  Console.WriteLine(i);
+            //}
+
+
+            #endregion
+
+
+            #region For - ForEach 
+
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[1]);
+            //Console.WriteLine(numbers[2]);
+            //Console.WriteLine(numbers[3]);
+            //Console.WriteLine(numbers[4]);
+            //Console.WriteLine(numbers[5]);
+            //Console.WriteLine(numbers[6]);
+            //Console.WriteLine(numbers[7]);
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //};
+
+
+
+            //foreach(int number in numbers)
+            //{
+            //    // Console.WriteLine(number[0]);
+            //    Console.WriteLine(number);
+            //}
+            
+            
+           #endregion
+
+
+
+            #endregion
 
 
 
 
+            #region Looping Statement { While - do while }
+
+
+
+            #endregion
 
 
 
