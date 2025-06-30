@@ -440,8 +440,15 @@
             //    Console.WriteLine(number);
             //}
             
-            
-           #endregion
+            //Person[] persons = new Person[]
+            //{
+            //    new Person() { Id = 1 , Name = "Mariam" , Age = 20 },
+            //    new Person() { Id = 2 , Name = "Omar" , Age = 30 },
+            //    new Person() { Id = 3 , Name = "Ali" , Age = 25 }
+            //};
+
+
+            #endregion
 
 
 
