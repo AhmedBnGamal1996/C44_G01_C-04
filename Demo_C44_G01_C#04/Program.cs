@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 
 namespace Demo_C44_G01_C_04
 {
@@ -698,7 +699,7 @@ namespace Demo_C44_G01_C_04
             //    {
             //        ++i; 
             //    }
-                
+
             //}
 
             //for (int i = 0; i < numbers.Length; i++)
@@ -720,39 +721,82 @@ namespace Demo_C44_G01_C_04
             //Console.WriteLine(m);
             //Console.WriteLine((int)m);  // space = 0 
 
-
-
-
-
-
-
-
-
-
-
-
-
+            //Console.WriteLine(numbers.Length);
+            //Console.WriteLine(numbers.Rank);  // Diemention 
 
             #endregion
 
 
+            #region Video 11 2D Array
+
+            //int[,] marks = new int[2, 5] {
+
+            //{100,200,300,400,500 },
+            //{10,20,30,40,50}
+            //};
+
+
+
+            //marks[0, 0] = 100; 
+            //marks[0, 1] = 200;
+            //marks[0, 2] = 300;
+            //marks[0, 3] = 400;
+            //marks[0, 4] = 500;
+
+            //marks[1, 0] = 100;
+            //marks[1, 1] = 200;
+            //marks[1, 2] = 300;
+            //marks[1, 3] = 400;
+            //marks[1, 4] = 500;
+
+
+            //marks[0, 5] = 500;    // Invaild Error Exeception
 
 
 
 
 
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        Console.WriteLine(marks[i,j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //int[,] marks = new int[2, 5];
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Please enter student number {i + 1} info ");
+            //    for (int j = 0; j < marks.GetLength(1);) 
+            //    {
+            //        Console.WriteLine($"Please enter the grade for subject{j + 1} ");
+            //        bool isParsed = int.TryParse(Console.ReadLine(), out marks[i, j]); 
+            //        if (isParsed)
+            //        {
+            //            j++;
+            //        }
+            //    }
+
+            //}
+
+            //Console.Clear();
 
 
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"info for studeny number {i + 1} ");
+
+            //    for (int j = 0; j < marks.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($"{marks[i, j]} ");
+            //    }
+            //            Console.WriteLine();
+            //}
 
 
-
-
-
-
-
-
-
-
+            #endregion
 
 
         }
