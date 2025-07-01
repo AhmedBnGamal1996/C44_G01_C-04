@@ -1,4 +1,7 @@
-﻿namespace Demo_C44_G01_C_04
+﻿using System.ComponentModel;
+using System.Xml.Linq;
+
+namespace Demo_C44_G01_C_04
 {
     internal class Program
     {
@@ -219,25 +222,70 @@
             // -Write a program that allows the user to insert an integer then
             // print negative if it is negative number otherwise print positive.
 
-            Console.WriteLine("please enter a number ..");
+            //Console.WriteLine("please enter a number ..");
 
-            int number;
+            //int number;
 
-            bool isParsed = int.TryParse(Console.ReadLine(), out number);
+            //bool isParsed = int.TryParse(Console.ReadLine(), out number);
 
 
-            if (number < 0)
-            {
-                Console.WriteLine("negative");
+            //if (number < 0)
+            //{
+            //    Console.WriteLine("negative");
 
-            }
-            else
-            {
-                Console.WriteLine("positive");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("positive");
 
-            }
+            //}
 
             #endregion
+
+
+
+
+            #region Question 3 
+            // Write a program that takes 3 integers from the user then 
+            // prints the max element and the min element.
+
+            //Console.WriteLine(" please enter a three number ..");
+
+            //bool isParsed1 = int.TryParse(Console.ReadLine(), out int number1);
+            //bool isParsed2 = int.TryParse(Console.ReadLine(), out int number2);
+            //bool isParsed3 = int.TryParse(Console.ReadLine(), out int number3);
+            //int max;
+            //int min;
+            //max = Math.Max(Math.Max(number1, number2), number3); 
+            //min = Math.Min(Math.Min(number1, number2), number3);
+
+            //if (isParsed1 == true && isParsed2 == true && isParsed3 == true)
+            //{
+            //    Console.WriteLine($"Max element : {max}, Min element : {min}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("please try ag");
+            //}
+
+
+
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
 
