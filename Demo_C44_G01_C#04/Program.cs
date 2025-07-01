@@ -280,29 +280,29 @@ namespace Demo_C44_G01_C_04
             // Write a program that allows the user to insert an integer number then check
             // If a number is even or odd
 
-            Console.WriteLine("please enter a number ..");
+            //Console.WriteLine("please enter a number ..");
 
-            int checkNumber;
+            //int checkNumber;
 
-            bool isParsed = int.TryParse(Console.ReadLine(), out checkNumber);
+            //bool isParsed = int.TryParse(Console.ReadLine(), out checkNumber);
 
 
-            if (checkNumber % 2 == 0)
-            {
-                Console.WriteLine("even");
+            //if (checkNumber % 2 == 0)
+            //{
+            //    Console.WriteLine("even");
 
-            }
-            else if (checkNumber % 2 == 1) 
-            {
-                Console.WriteLine("odd");
+            //}
+            //else if (checkNumber % 2 == 1) 
+            //{
+            //    Console.WriteLine("odd");
 
-            }
+            //}
 
-            else
-            {
-                Console.WriteLine("Please try again");
+            //else
+            //{
+            //    Console.WriteLine("Please try again");
 
-            }
+            //}
 
 
 
@@ -311,7 +311,40 @@ namespace Demo_C44_G01_C_04
 
 
 
+            #region Question 5
+            // Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u)
+            // then print (vowel) otherwise print (consonant).
 
+            Console.WriteLine("please enter one character ..");
+            char characters;
+            bool isParsed = char.TryParse(Console.ReadLine(), out characters);
+
+            if (isParsed is true )
+            {
+                switch (characters)
+                {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                        Console.WriteLine("vowel");
+                        break;
+                    default:
+                        Console.WriteLine("consonant");
+                        break;
+                }
+            }
+            else
+            {
+             Console.WriteLine("Please try again");
+            }
+
+
+
+
+
+            #endregion
 
 
 
