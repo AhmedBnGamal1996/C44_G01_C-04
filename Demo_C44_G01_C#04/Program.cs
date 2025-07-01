@@ -276,6 +276,38 @@ namespace Demo_C44_G01_C_04
 
 
 
+            #region Question 4
+            // Write a program that allows the user to insert an integer number then check
+            // If a number is even or odd
+
+            Console.WriteLine("please enter a number ..");
+
+            int checkNumber;
+
+            bool isParsed = int.TryParse(Console.ReadLine(), out checkNumber);
+
+
+            if (checkNumber % 2 == 0)
+            {
+                Console.WriteLine("even");
+
+            }
+            else if (checkNumber % 2 == 1) 
+            {
+                Console.WriteLine("odd");
+
+            }
+
+            else
+            {
+                Console.WriteLine("Please try again");
+
+            }
+
+
+
+
+            #endregion
 
 
 
