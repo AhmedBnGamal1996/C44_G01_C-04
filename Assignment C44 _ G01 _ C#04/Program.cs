@@ -39,12 +39,34 @@ namespace Demo_C44_G01_C_04
 
 
 
+            #region  Question 2
+            // -Write a program that allows the user to insert an integer then
+            // print negative if it is negative number otherwise print positive.
+
+            Console.WriteLine("please enter a number ..");
+
+            int number;
+
+            bool isParsed = int.TryParse(Console.ReadLine(), out number);
+
+
+            if (number < 0)
+            {
+                Console.WriteLine("negative");
+
+            }
+            else
+            {
+                Console.WriteLine("positive");
+            }
 
 
 
 
 
 
+
+            #endregion
 
 
 
