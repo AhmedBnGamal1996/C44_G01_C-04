@@ -58,14 +58,7 @@ namespace Demo_C44_G01_C_04
             else
             {
                 Console.WriteLine("positive");
-            }
-
-
-
-
-
-
-
+            
             #endregion
 
 
@@ -80,9 +73,7 @@ namespace Demo_C44_G01_C_04
 
 
 
-        }
+        
 
 
-    }
-
-}
+  
