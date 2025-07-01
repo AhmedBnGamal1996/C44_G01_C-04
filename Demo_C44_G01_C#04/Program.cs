@@ -1,4 +1,6 @@
-﻿namespace Demo_C44_G01_C_04
+﻿using System.Text;
+
+namespace Demo_C44_G01_C_04
 {
     internal class Program
     {
@@ -511,17 +513,145 @@
             //        number++;
             //    }
             //}
-                
-
-            #endregion
 
 
             #endregion
 
 
+            #endregion
+
+
+            #region Video 8 String
+            // Is a Built in class [ reference Data Type ] and represente 
+            // They are immutable [ once a string object is created , it is 
+            // any operation that modifies a string acthually creates a 
+            // internally is represented as an array of characters . 
+            // Each chatacther in the string corresponds to a single char
+
+            #region  Examples
+
+            //string name = new string("mariam");
+            //string name2 = "mariam";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //name2 = "Omar";
+            //Console.WriteLine("#######################");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //string name = "Hello";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //name += " Mariam"; 
+            //Console.WriteLine();
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+
+            // name = "Mariam"          // Syntax Sugar
+
+            #endregion
+
+
+            #region String Method 
+            //string name = "                  Mariam                 ";
+            //Console.WriteLine(name.Length);         // Property
+            //Console.WriteLine(name.ToUpper());
+            //Console.WriteLine(name.ToLower());
+            //Console.WriteLine(name.Replace("M", " M"));
+            //Console.WriteLine(name.Replace("hello", "hey"));
+            //Console.WriteLine(name.Remove(0,2));
+            //Console.WriteLine(name.Trim());
+            //Console.WriteLine(name.TrimStart());
+            //Console.WriteLine(name.TrimEnd());
+            #endregion
+
+            #endregion
 
 
 
+            #region Video 9 String Builder
+            // is a built in class [ reference data type ] and represente
+            // multable string
+            // linkedList of characters
+
+            #region Examples
+            //StringBuilder name ;
+            //// Alocate 4 bytes in stack for refernce
+            //// name = "Mariam"    // invalid 
+
+            //name = new StringBuilder("Mariam");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+            //// name += " Shindy" ;          // invaild
+            //name.Append(" Shindy");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+
+            //StringBuilder name1 = new StringBuilder("Mariam");
+            //StringBuilder name2 = new StringBuilder(); 
+            //name2.Append("Mariam");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+            //name1 = name2;
+            //Console.WriteLine("change name 1");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+            #endregion
+
+
+
+            #region String Builder Methods
+
+            //StringBuilder msg = new StringBuilder("Mariam");
+            //int age = 20;
+            //msg.Insert(0, "       Hello  ");
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.Replace("M", "C"));
+            //Console.WriteLine(msg.Replace("Mariam" , "New MAriam"));
+            //Console.WriteLine(msg.Remove(0,2));
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.GetHashCode());
+            //msg.Clear();
+            //Console.WriteLine(msg);
+            //Console.WriteLine(msg.GetHashCode());
+            //msg.AppendFormat("Your age is {0}", age);
+
+            //Console.WriteLine(msg.Length);     // Property = 6 
+            //msg.AppendLine(" Shindy");
+            //msg.Append("Hello");
+            //msg.AppendJoin(",", "yasser" , "Omar" , "Shindy");
+
+
+
+            #endregion
+
+            #region String Vs StringBuilder
+
+            /*
+              Simple and few concatenations => string
+              Large loops or frequent changes => StringBuilder
+              You care about performance => StringBuilder
+              You care about code simplicity => String
+            */
+            #endregion
+
+
+
+            #endregion
 
 
 
