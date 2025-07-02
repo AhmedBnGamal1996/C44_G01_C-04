@@ -789,12 +789,12 @@ namespace Demo_C44_G01_C_04
             #region Question 20
             // Write a program in C# Sharp to find the sum of all elements of the array.
 
-            int[]number = {10,20,30,40,50};
+            //int[]number = {10,20,30,40,50};
 
-            int result;
-            result = number.Sum(); 
+            //int result;
+            //result = number.Sum(); 
 
-            Console.WriteLine($"the sum of all elements : {result} ");
+            //Console.WriteLine($"the sum of all elements : {result} ");
 
 
 
@@ -806,8 +806,33 @@ namespace Demo_C44_G01_C_04
             #region Question 21
             // Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
+            int[] numArr1= { 10, 20, 30, 40, 50 };
+            int[] numArr2= { 60, 70, 80, 90, 100};
+            int sizeArray = numArr1.Length + numArr2.Length; 
+            int[] numMerge = new int[sizeArray];
+            
 
+            for (int i = 0; i < numArr1.Length; i++)
+            {
+                numMerge[i]+= numArr1[i];
 
+            }
+
+            for (int i = 0; i < numArr2.Length; i++)
+            {
+                numMerge[numArr1.Length + i ]+= numArr2[i];
+
+            }
+
+            Array.Sort(numMerge);
+
+            for(int i = 0; i <= numMerge.Length; i++) 
+            {
+
+                Console.WriteLine(numMerge[i]);
+                Console.WriteLine();
+
+            }
 
 
             #endregion
