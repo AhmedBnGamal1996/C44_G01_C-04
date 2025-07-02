@@ -576,15 +576,19 @@ namespace Demo_C44_G01_C_04
 
 
 
-                    #endregion
+            #endregion
 
 
 
 
 
 
-                    #region  Question 13
-                    // - Write a program to allow the user to enter a string and print the REVERSE of it.
+            #region  Question 13
+            // - Write a program to allow the user to enter a string and print the REVERSE of it.
+            Console.WriteLine("please enter a string ");
+            string text = Console.ReadLine();
+            string reverseText; 
+
 
 
                     #endregion
