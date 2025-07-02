@@ -769,6 +769,33 @@ namespace Demo_C44_G01_C_04
 
              */
 
+            Console.WriteLine("enter the time taken duration required to complete a task : ");
+
+            double timeComplete = double.Parse(Console.ReadLine());
+
+            if (timeComplete>=2 && timeComplete<=3)
+            {
+                Console.WriteLine("the worker is highly efficient");
+            }
+            else if (timeComplete > 3 && timeComplete <= 4)
+            {
+                Console.WriteLine("the worker needs to increase speed");
+
+            }
+            else if (timeComplete > 4 && timeComplete <= 5)
+            {
+                Console.WriteLine("the worker is needs training to enhance your speed");
+            }
+            else if (timeComplete > 5)
+            {
+                Console.WriteLine("the worker should leave the company");
+
+            }
+            else
+            {
+                Console.WriteLine("please try again");
+            }
+
 
             #endregion
 
@@ -1041,13 +1068,13 @@ namespace Demo_C44_G01_C_04
             above 30 degrees is "Just Hot", and anything else is "Just Good".
              */
 
-            Console.Write("Please enter the temperature today : ");
-            int temperature = int.Parse(Console.ReadLine());
-            Console.Clear();
+            //Console.Write("Please enter the temperature today : ");
+            //int temperature = int.Parse(Console.ReadLine());
+            //Console.Clear();
 
-            string theResult = (temperature > 30)?"just Hot":(temperature < 10)?"just Cold":"just Hot" ;
+            //string theResult = (temperature > 30)?"just Hot":(temperature < 10)?"just Cold":"just Hot" ;
 
-            Console.WriteLine($"the temperature today is : {theResult} ");
+            //Console.WriteLine($"the temperature today is : {theResult} ");
 
 
 
