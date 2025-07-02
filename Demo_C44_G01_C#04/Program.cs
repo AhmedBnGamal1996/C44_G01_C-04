@@ -378,18 +378,48 @@ namespace Demo_C44_G01_C_04
             // print a multiplication table up to 12.
 
 
+            //Console.WriteLine("Please enter a number ...");
+
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //Console.WriteLine($"multiplication table for {number} up to 12 ");
+            //Console.WriteLine();
+
+            //if (isParsed)
+            //{
+            //    for (int i = 1; i <= 12; i++)
+            //    {
+            //        Console.WriteLine($" {number} * {i} : {i*number}");
+
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please try again");
+            //}
+
+
+            #endregion
+
+
+            #region  Question 8
+            // Write a program that allows to user to insert number then print all even numbers between 1 to this number
+
+
             Console.WriteLine("Please enter a number ...");
 
             bool isParsed = int.TryParse(Console.ReadLine(), out int number);
-            Console.WriteLine($"multiplication table for {number} up to 12 ");
-            Console.WriteLine();
+
+            Console.Clear();
 
             if (isParsed)
             {
-                for (int i = 1; i <= 12; i++)
+                for (int i = 1; i < number; i++)
                 {
-                    Console.WriteLine($" {number} * {i} : {i*number}");
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine(i);
 
+                    }
                 }
             }
             else
@@ -399,6 +429,40 @@ namespace Demo_C44_G01_C_04
 
 
             #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
