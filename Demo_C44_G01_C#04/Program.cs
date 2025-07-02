@@ -842,34 +842,34 @@ namespace Demo_C44_G01_C_04
             // Write a program in C# Sharp to count the frequency of each element of an array.
 
 
-            int[] numArr = { 30, 20, 30, 20, 50 };
-            int countFrequency = 0;
+            //int[] numArr = { 30, 20, 30, 20, 50 };
+            //int countFrequency = 0;
 
 
 
-            for (int i = 0; i < numArr.Length; i++)
-            {
-                bool  isFreq = false; 
+            //for (int i = 0; i < numArr.Length; i++)
+            //{
+            //    bool  isFreq = false; 
 
-                for (int j = 0; j < i; j++)
-                {
-                    if (numArr[i] == numArr[j])
-                    {
-                        isFreq = true;
-                        break;
-                    }
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //        if (numArr[i] == numArr[j])
+            //        {
+            //            isFreq = true;
+            //            break;
+            //        }
 
-                }
-                if (!isFreq)
-                {
-                    int count= 0;
-                    for (int n = 0; n < numArr.Length; n++)
-                    {
-                        count++;
-                    }
-                    Console.WriteLine($"the frequency is {count} ");
-                }
-            }
+            //    }
+            //    if (!isFreq)
+            //    {
+            //        int count= 0;
+            //        for (int n = 0; n < numArr.Length; n++)
+            //        {
+            //            count++;
+            //        }
+            //        Console.WriteLine($"the frequency is {count} ");
+            //    }
+            //}
 
 
 
@@ -883,8 +883,36 @@ namespace Demo_C44_G01_C_04
             #region Question 23
             // Write a program in C# Sharp to find maximum and minimum element in an array
 
+            //int[] numArr = { 10, 90, 30, 80, 50 };
+            //int maxNum = 0;
+            //int minNum = 1000000;
+
+            //for (int i = 0; i < numArr.Length; i++)
+            //{
+            //    if (numArr[i] > maxNum)
+            //    {
+            //        maxNum = numArr[i];
+                    
+            //    }
+            //    if (numArr[i] < minNum)
+            //    { minNum = numArr[i]; }
 
 
+            //}
+
+            //Console.WriteLine($"{maxNum}  ,   {minNum}");
+
+
+
+            // another way 
+
+            //Array.Sort(numArr);
+
+            //maxNum = numArr[4]; 
+            //minNum = numArr[0];
+
+
+            //Console.WriteLine($"{maxNum}  ,   {minNum}");
 
 
 
