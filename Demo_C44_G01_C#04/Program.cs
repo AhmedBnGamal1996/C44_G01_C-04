@@ -372,7 +372,33 @@ namespace Demo_C44_G01_C_04
             #endregion
 
 
+            #region Question 7
 
+            // Write a program that allows the user to insert an integer then 
+            // print a multiplication table up to 12.
+
+
+            Console.WriteLine("Please enter a number ...");
+
+            bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            Console.WriteLine($"multiplication table for {number} up to 12 ");
+            Console.WriteLine();
+
+            if (isParsed)
+            {
+                for (int i = 1; i <= 12; i++)
+                {
+                    Console.WriteLine($" {number} * {i} : {i*number}");
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("Please try again");
+            }
+
+
+            #endregion
 
 
 
