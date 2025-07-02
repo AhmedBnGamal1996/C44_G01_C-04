@@ -971,45 +971,41 @@ namespace Demo_C44_G01_C_04
             // Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array.
             // Now copy all the elements of first array on second array and print second array.
 
-            int[,] theFirstarray = new int [2,3] ;  
-            int[,] theSecondarray = new int [2,3];
+            //int[,] theFirstarray = new int [2,3] ;  
+            //int[,] theSecondarray = new int [2,3];
 
 
 
-            for (int i = 0; i < 2; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.WriteLine($"please enter the element {i} , {j}");
-                    theFirstarray[i,j] = int.Parse(Console.ReadLine());
-                }
-            }
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.WriteLine($"please enter the element {i} , {j}");
+            //        theFirstarray[i,j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
 
 
-            for (int i = 0;i < 2; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    theSecondarray[i,j] = theFirstarray[i,j];
-                }
+            //for (int i = 0;i < 2; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        theSecondarray[i,j] = theFirstarray[i,j];
+            //    }
 
-            }
+            //}
 
 
-            Console.Clear();
+            //Console.Clear();
 
-            for ( int i = 0; i <= 2; i++)
-            {
-                for (int j = 0;j < 3; j++)
-                {
-                    Console.WriteLine(theSecondarray[i,j]);
-                }
+            //for ( int i = 0; i <= 2; i++)
+            //{
+            //    for (int j = 0;j < 3; j++)
+            //    {
+            //        Console.WriteLine(theSecondarray[i,j]);
+            //    }
                 
-            }
-
-
-
-
+            //}
 
 
 
@@ -1020,6 +1016,15 @@ namespace Demo_C44_G01_C_04
             #region Question 28
             // Write a Program to Print One Dimensional Array in Reverse Order
 
+            int[] oneDiemsionalarray = { 1, 2, 3, 4, 5 };
+
+            Console.Write("Reverse for One Dimensional Array :-   ");
+
+            for (int i = oneDiemsionalarray.Length - 1; i >= 0; i--)
+            {
+                Console.Write($" {oneDiemsionalarray[i]} ");
+            }
+            Console.WriteLine();
 
 
 
