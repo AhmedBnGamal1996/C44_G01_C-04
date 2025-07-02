@@ -315,30 +315,30 @@ namespace Demo_C44_G01_C_04
             // Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u)
             // then print (vowel) otherwise print (consonant).
 
-            Console.WriteLine("please enter one character ..");
-            char characters;
-            bool isParsed = char.TryParse(Console.ReadLine(), out characters);
+            //Console.WriteLine("please enter one character ..");
+            //char characters;
+            //bool isParsed = char.TryParse(Console.ReadLine(), out characters);
 
-            if (isParsed is true )
-            {
-                switch (characters)
-                {
-                    case 'a':
-                    case 'e':
-                    case 'i':
-                    case 'o':
-                    case 'u':
-                        Console.WriteLine("vowel");
-                        break;
-                    default:
-                        Console.WriteLine("consonant");
-                        break;
-                }
-            }
-            else
-            {
-             Console.WriteLine("Please try again");
-            }
+            //if (isParsed is true )
+            //{
+            //    switch (characters)
+            //    {
+            //        case 'a':
+            //        case 'e':
+            //        case 'i':
+            //        case 'o':
+            //        case 'u':
+            //            Console.WriteLine("vowel");
+            //            break;
+            //        default:
+            //            Console.WriteLine("consonant");
+            //            break;
+            //    }
+            //}
+            //else
+            //{
+            // Console.WriteLine("Please try again");
+            //}
 
 
 
@@ -346,6 +346,30 @@ namespace Demo_C44_G01_C_04
 
             #endregion
 
+
+            #region Question 6
+            //Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+
+            //Console.WriteLine("Please enter a number ...");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //Console.Clear();
+
+            //if (isParsed)
+            //{
+            //    for (int i = 1; i <= number ; i++)
+            //    {
+            //        Console.WriteLine(i);
+
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please try again");
+            //}
+
+
+
+            #endregion
 
 
 
