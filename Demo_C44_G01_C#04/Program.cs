@@ -949,7 +949,17 @@ namespace Demo_C44_G01_C_04
             #region Question 26
             // Given a list of space separated words, reverse the order of the words.
 
+            Console.Write("please enter the text : ");
 
+            string text = Console.ReadLine();
+            string[] textArray = text.Split(' '); 
+
+            Console.Clear();
+
+            for (int i = textArray.Length - 1 ; i >= 0; i--)
+            {
+                Console.Write($"{textArray[i]} ");
+            }
 
 
 
