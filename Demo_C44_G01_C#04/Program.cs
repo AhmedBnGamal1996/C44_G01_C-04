@@ -753,6 +753,41 @@ namespace Demo_C44_G01_C_04
             // - Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3),
             //and determines whether these points lie on a single straight line.
 
+            Console.WriteLine("please enter to input three points :");
+
+            Console.Write("x1: ");
+            double x1 = double.Parse(Console.ReadLine());
+
+            Console.Write("y1: ");
+            double y1 = double.Parse(Console.ReadLine());
+
+            Console.Write("x2: ");
+            double x2 = double.Parse(Console.ReadLine());
+
+            Console.Write("y2: ");
+            double y2 = double.Parse(Console.ReadLine());
+
+            Console.Write("x3: ");
+            double x3 = double.Parse(Console.ReadLine());
+
+            Console.Write("y3: ");
+            double y3 = double.Parse(Console.ReadLine());
+
+
+            if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))     // for check the slope 
+            {
+                Console.WriteLine("these points lie on a single straight line.");
+            }
+            else if ((y2 - y1) * (x3 - x2) != (y3 - y2) * (x2 - x1))
+            {
+                Console.WriteLine("these points not fail on a single straight line.");
+            }
+            else
+            {
+                Console.WriteLine("please try again");
+            }
+
+
 
             #endregion
 
@@ -769,32 +804,32 @@ namespace Demo_C44_G01_C_04
 
              */
 
-            Console.WriteLine("enter the time taken duration required to complete a task : ");
+            //Console.WriteLine("enter the time taken duration required to complete a task : ");
 
-            double timeComplete = double.Parse(Console.ReadLine());
+            //double timeComplete = double.Parse(Console.ReadLine());
 
-            if (timeComplete>=2 && timeComplete<=3)
-            {
-                Console.WriteLine("the worker is highly efficient");
-            }
-            else if (timeComplete > 3 && timeComplete <= 4)
-            {
-                Console.WriteLine("the worker needs to increase speed");
+            //if (timeComplete>=2 && timeComplete<=3)
+            //{
+            //    Console.WriteLine("the worker is highly efficient");
+            //}
+            //else if (timeComplete > 3 && timeComplete <= 4)
+            //{
+            //    Console.WriteLine("the worker needs to increase speed");
 
-            }
-            else if (timeComplete > 4 && timeComplete <= 5)
-            {
-                Console.WriteLine("the worker is needs training to enhance your speed");
-            }
-            else if (timeComplete > 5)
-            {
-                Console.WriteLine("the worker should leave the company");
+            //}
+            //else if (timeComplete > 4 && timeComplete <= 5)
+            //{
+            //    Console.WriteLine("the worker is needs training to enhance your speed");
+            //}
+            //else if (timeComplete > 5)
+            //{
+            //    Console.WriteLine("the worker should leave the company");
 
-            }
-            else
-            {
-                Console.WriteLine("please try again");
-            }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("please try again");
+            //}
 
 
             #endregion
