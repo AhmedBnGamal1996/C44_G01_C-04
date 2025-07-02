@@ -806,33 +806,33 @@ namespace Demo_C44_G01_C_04
             #region Question 21
             // Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
-            int[] numArr1= { 10, 20, 30, 40, 50 };
-            int[] numArr2= { 60, 70, 80, 90, 100};
-            int sizeArray = numArr1.Length + numArr2.Length; 
-            int[] numMerge = new int[sizeArray];
-            
+            //int[] numArr1= { 10, 20, 30, 40, 50 };
+            //int[] numArr2= { 60, 70, 80, 90, 100};
+            //int sizeArray = numArr1.Length + numArr2.Length; 
+            //int[] numMerge = new int[sizeArray];
 
-            for (int i = 0; i < numArr1.Length; i++)
-            {
-                numMerge[i]+= numArr1[i];
 
-            }
+            //for (int i = 0; i < numArr1.Length; i++)
+            //{
+            //    numMerge[i]+= numArr1[i];
 
-            for (int i = 0; i < numArr2.Length; i++)
-            {
-                numMerge[numArr1.Length + i ]+= numArr2[i];
+            //}
 
-            }
+            //for (int i = 0; i < numArr2.Length; i++)
+            //{
+            //    numMerge[numArr1.Length + i ]+= numArr2[i];
 
-            Array.Sort(numMerge);
+            //}
 
-            for(int i = 0; i <= numMerge.Length; i++) 
-            {
+            //Array.Sort(numMerge);
 
-                Console.WriteLine(numMerge[i]);
-                Console.WriteLine();
+            //for(int i = 0; i <= numMerge.Length; i++) 
+            //{
 
-            }
+            //    Console.WriteLine(numMerge[i]);
+            //    Console.WriteLine();
+
+            //}
 
 
             #endregion
@@ -840,6 +840,37 @@ namespace Demo_C44_G01_C_04
 
             #region Question 22
             // Write a program in C# Sharp to count the frequency of each element of an array.
+
+
+            int[] numArr = { 30, 20, 30, 20, 50 };
+            int countFrequency = 0;
+
+
+
+            for (int i = 0; i < numArr.Length; i++)
+            {
+                bool  isFreq = false; 
+
+                for (int j = 0; j < i; j++)
+                {
+                    if (numArr[i] == numArr[j])
+                    {
+                        isFreq = true;
+                        break;
+                    }
+
+                }
+                if (!isFreq)
+                {
+                    int count= 0;
+                    for (int n = 0; n < numArr.Length; n++)
+                    {
+                        count++;
+                    }
+                    Console.WriteLine($"the frequency is {count} ");
+                }
+            }
+
 
 
 
