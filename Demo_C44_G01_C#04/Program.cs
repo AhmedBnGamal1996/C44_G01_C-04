@@ -666,14 +666,82 @@ namespace Demo_C44_G01_C_04
             //    number++;
             //}
 
-                #endregion
+            #endregion
 
 
 
 
 
-                #region  Question 16
-                // - Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            #region  Question 16
+            // - Write a program in C# Sharp to convert a decimal number into binary without using an array.
+
+            //Console.WriteLine("Enter a decimal number : ");
+            //string textNumber = Console.ReadLine();
+             
+
+
+            //for (int i = 0; i >=textNumber.Length; i++)
+
+            //{
+
+            // switch (textNumber[i])
+            //    {
+             
+            //        case '1':
+            //            textNumber.[i] = 1;
+            //            break;
+
+            //        case '2':
+            //            textNumber.[i] = 10;
+            //            break;
+            //        case '3':
+            //            textNumber.[i] = 11;
+            //            break;
+            //        case '4':
+            //            textNumber.[i] = 100;
+            //            break;
+            //        case '5':
+            //            textNumber.[i] = 101;
+            //            break;
+            //        case '6':
+            //            textNumber.[i] = 110;
+            //            break;
+            //        case '7':
+            //            textNumber.[i] = 111;
+            //            break;
+            //        case '8':
+            //            textNumber.[i] = 1000;
+            //            break;
+            //        case '9':
+            //            textNumber.[i] = 1001;
+            //            break;
+            //        case '10':
+            //            textNumber.[i] = 1010;
+            //            break;
+
+
+            //    }
+
+            //}
+
+            //    int number = int.Parse(textNumber);
+
+            //if (number == 0)
+            //{
+            //    Console.WriteLine($"the binary is {number} ");
+            //}
+            //else if (number > 0)
+
+            //{
+            
+
+            //}
+
+
+
+
+
+
 
 
                 #endregion
