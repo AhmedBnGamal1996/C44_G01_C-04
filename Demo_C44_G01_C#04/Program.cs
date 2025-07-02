@@ -949,17 +949,17 @@ namespace Demo_C44_G01_C_04
             #region Question 26
             // Given a list of space separated words, reverse the order of the words.
 
-            Console.Write("please enter the text : ");
+            //Console.Write("please enter the text : ");
 
-            string text = Console.ReadLine();
-            string[] textArray = text.Split(' '); 
+            //string text = Console.ReadLine();
+            //string[] textArray = text.Split(' '); 
 
-            Console.Clear();
+            //Console.Clear();
 
-            for (int i = textArray.Length - 1 ; i >= 0; i--)
-            {
-                Console.Write($"{textArray[i]} ");
-            }
+            //for (int i = textArray.Length - 1 ; i >= 0; i--)
+            //{
+            //    Console.Write($"{textArray[i]} ");
+            //}
 
 
 
@@ -970,6 +970,44 @@ namespace Demo_C44_G01_C_04
             #region Question 27
             // Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array.
             // Now copy all the elements of first array on second array and print second array.
+
+            int[,] theFirstarray = new int [2,3] ;  
+            int[,] theSecondarray = new int [2,3];
+
+
+
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.WriteLine($"please enter the element {i} , {j}");
+                    theFirstarray[i,j] = int.Parse(Console.ReadLine());
+                }
+            }
+
+
+            for (int i = 0;i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    theSecondarray[i,j] = theFirstarray[i,j];
+                }
+
+            }
+
+
+            Console.Clear();
+
+            for ( int i = 0; i <= 2; i++)
+            {
+                for (int j = 0;j < 3; j++)
+                {
+                    Console.WriteLine(theSecondarray[i,j]);
+                }
+                
+            }
+
+
 
 
 
