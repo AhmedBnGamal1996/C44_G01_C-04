@@ -435,41 +435,62 @@ namespace Demo_C44_G01_C_04
             #region Question 9
             // Write a program that takes two integers then prints the power
 
-            Console.Write("Please enter the first integers : ");
+            //Console.Write("Please enter the first integers : ");
 
-            bool isParsed = int.TryParse(Console.ReadLine(), out int num1);
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int num1);
 
-            Console.Write("Please enter the second integers : ");
+            //Console.Write("Please enter the second integers : ");
 
-            bool isParsed2 = int.TryParse(Console.ReadLine(), out int num2);
-            Console.Clear();
+            //bool isParsed2 = int.TryParse(Console.ReadLine(), out int num2);
+            //Console.Clear();
 
-            int powerNumber; 
+            //int powerNumber; 
 
-            if (isParsed && isParsed2)
-            {
-                for (int i = num1; i <= num2; i++)
-                {
-                    powerNumber = i * num2; 
-                    //Console.WriteLine(i*num2);
-                    Console.Clear();
-                    Console.WriteLine(powerNumber);
-                }
-            }
-            else
-            {
-                Console.WriteLine("please try agian");
-            }
-
-
-
+            //if (isParsed && isParsed2)
+            //{
+            //    for (int i = num1; i <= num2; i++)
+            //    {
+            //        powerNumber = i * num2; 
+            //        //Console.WriteLine(i*num2);
+            //        Console.Clear();
+            //        Console.WriteLine(powerNumber);
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("please try agian");
+            //}
 
 
             #endregion
 
 
 
+            #region Question 10
+            // - Write a program to enter marks of five subjects and calculate total, average and percentage
 
+            //Console.WriteLine("Enter Marks of five subjects: ");
+
+            //int[] subject = new int[5];
+            //int totalSubject = 0;
+
+
+            //for (int i = 0 ; i < subject.Length ; i++)
+            //{
+            //    Console.WriteLine($"please enter the {i + 1 } subject ");
+
+            //    int.TryParse(Console.ReadLine(), out subject[i]);
+            //    totalSubject += subject[i];
+
+            //}
+            //Console.Clear();
+
+            //Console.WriteLine($"TotalMark : {totalSubject} ");
+            //Console.WriteLine($"Average Marks : {totalSubject/5}" );
+            //Console.WriteLine($"Percentage : {(totalSubject * 100) / 500}");
+
+
+            #endregion
 
 
 
