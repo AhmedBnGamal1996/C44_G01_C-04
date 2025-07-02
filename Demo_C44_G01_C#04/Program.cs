@@ -892,7 +892,7 @@ namespace Demo_C44_G01_C_04
             //    if (numArr[i] > maxNum)
             //    {
             //        maxNum = numArr[i];
-                    
+
             //    }
             //    if (numArr[i] < minNum)
             //    { minNum = numArr[i]; }
@@ -922,7 +922,10 @@ namespace Demo_C44_G01_C_04
 
             #region Question 24
             // - Write a program in C# Sharp to find the second largest element in an array.
-
+            //int[] numArr = { 10, 90, 30, 80, 50 };         
+            //Array.Sort(numArr);                 // 10 - 30 - 50 - 80 - 90 
+            //int sizaArray = numArr.Length;
+            //Console.WriteLine(numArr[sizaArray-2 ]);
 
 
 
