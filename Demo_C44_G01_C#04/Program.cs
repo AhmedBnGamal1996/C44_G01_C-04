@@ -1004,7 +1004,7 @@ namespace Demo_C44_G01_C_04
             //    {
             //        Console.WriteLine(theSecondarray[i,j]);
             //    }
-                
+
             //}
 
 
@@ -1016,15 +1016,15 @@ namespace Demo_C44_G01_C_04
             #region Question 28
             // Write a Program to Print One Dimensional Array in Reverse Order
 
-            int[] oneDiemsionalarray = { 1, 2, 3, 4, 5 };
+            //int[] oneDiemsionalarray = { 1, 2, 3, 4, 5 };
 
-            Console.Write("Reverse for One Dimensional Array :-   ");
+            //Console.Write("Reverse for One Dimensional Array :-   ");
 
-            for (int i = oneDiemsionalarray.Length - 1; i >= 0; i--)
-            {
-                Console.Write($" {oneDiemsionalarray[i]} ");
-            }
-            Console.WriteLine();
+            //for (int i = oneDiemsionalarray.Length - 1; i >= 0; i--)
+            //{
+            //    Console.Write($" {oneDiemsionalarray[i]} ");
+            //}
+            //Console.WriteLine();
 
 
 
@@ -1053,8 +1053,16 @@ namespace Demo_C44_G01_C_04
 
             #region Question 30
             // What will be the output of the C# code given below?
+            /*
+            int num = 1, z = 5;
 
+            if (!(num <= 0))
+                Console.WriteLine(++num + z++ + " " + ++z);
+            else
+                Console.WriteLine(--num + z-- + " " + --z);
+            */ 
 
+           // The output :        d. 7 7 
 
 
 
