@@ -1041,6 +1041,14 @@ namespace Demo_C44_G01_C_04
             above 30 degrees is "Just Hot", and anything else is "Just Good".
              */
 
+            Console.Write("Please enter the temperature today : ");
+            int temperature = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            string theResult = (temperature > 30)?"just Hot":(temperature < 10)?"just Cold":"just Hot" ;
+
+            Console.WriteLine($"the temperature today is : {theResult} ");
+
 
 
 
@@ -1060,9 +1068,9 @@ namespace Demo_C44_G01_C_04
                 Console.WriteLine(++num + z++ + " " + ++z);
             else
                 Console.WriteLine(--num + z-- + " " + --z);
-            */ 
+            */
 
-           // The output :        d. 7 7 
+            // The output :        d. 7 7 
 
 
 
