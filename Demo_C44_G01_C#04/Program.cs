@@ -405,34 +405,67 @@ namespace Demo_C44_G01_C_04
             // Write a program that allows to user to insert number then print all even numbers between 1 to this number
 
 
-            Console.WriteLine("Please enter a number ...");
+            //Console.WriteLine("Please enter a number ...");
 
-            bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
-            Console.Clear();
+            //Console.Clear();
 
-            if (isParsed)
-            {
-                for (int i = 1; i < number; i++)
-                {
-                    if (i % 2 == 0)
-                    {
-                        Console.WriteLine(i);
+            //if (isParsed)
+            //{
+            //    for (int i = 1; i < number; i++)
+            //    {
+            //        if (i % 2 == 0)
+            //        {
+            //            Console.WriteLine(i);
 
-                    }
-                }
-            }
-            else
-            {
-                Console.WriteLine("Please try again");
-            }
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please try again");
+            //}
 
 
             #endregion
 
 
 
+            #region Question 9
+            // Write a program that takes two integers then prints the power
 
+            Console.Write("Please enter the first integers : ");
+
+            bool isParsed = int.TryParse(Console.ReadLine(), out int num1);
+
+            Console.Write("Please enter the second integers : ");
+
+            bool isParsed2 = int.TryParse(Console.ReadLine(), out int num2);
+            Console.Clear();
+
+            int powerNumber; 
+
+            if (isParsed && isParsed2)
+            {
+                for (int i = num1; i <= num2; i++)
+                {
+                    powerNumber = i * num2; 
+                    //Console.WriteLine(i*num2);
+                    Console.Clear();
+                    Console.WriteLine(powerNumber);
+                }
+            }
+            else
+            {
+                Console.WriteLine("please try agian");
+            }
+
+
+
+
+
+            #endregion
 
 
 
