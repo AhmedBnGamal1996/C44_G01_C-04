@@ -677,7 +677,7 @@ namespace Demo_C44_G01_C_04
 
             //Console.WriteLine("Enter a decimal number : ");
             //string textNumber = Console.ReadLine();
-             
+
 
 
             //for (int i = 0; i >=textNumber.Length; i++)
@@ -686,7 +686,7 @@ namespace Demo_C44_G01_C_04
 
             // switch (textNumber[i])
             //    {
-             
+
             //        case '1':
             //            textNumber.[i] = 1;
             //            break;
@@ -733,7 +733,7 @@ namespace Demo_C44_G01_C_04
             //else if (number > 0)
 
             //{
-            
+
 
             //}
 
@@ -744,178 +744,182 @@ namespace Demo_C44_G01_C_04
 
 
 
-                #endregion  
+            #endregion
 
 
 
 
-                #region  Question 17
-                // - Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3),
-                //and determines whether these points lie on a single straight line.
+            #region  Question 17
+            // - Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3),
+            //and determines whether these points lie on a single straight line.
 
 
-                #endregion
+            #endregion
 
 
 
-                #region Qestion 18 
-                /*
-                  Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
-                - If the worker completes the job within 2 to 3 hours, they are considered highly efficient. 
-                - If the worker takes 3 to 4 hours, they are instructed to increase their speed. 
-                - If the worker takes 4 to 5 hours, they are provided with training to enhance their speed. 
-                - If the worker takes more than 5 hours, they are required to leave the company. 
-                To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
+            #region Qestion 18 
+            /*
+              Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
+            - If the worker completes the job within 2 to 3 hours, they are considered highly efficient. 
+            - If the worker takes 3 to 4 hours, they are instructed to increase their speed. 
+            - If the worker takes 4 to 5 hours, they are provided with training to enhance their speed. 
+            - If the worker takes more than 5 hours, they are required to leave the company. 
+            To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
 
-                 */
+             */
 
 
-                #endregion
+            #endregion
 
 
 
 
-                #region  Question 19
-                // - Write a program that prints an identity matrix using for loop, in other words takes a value n from the user
-                //  and shows the identity table of size n * n.
+            #region  Question 19
+            // - Write a program that prints an identity matrix using for loop, in other words takes a value n from the user
+            //  and shows the identity table of size n * n.
 
 
 
-                #endregion
+            #endregion
 
 
 
 
-                #region Question 20
-                // Write a program in C# Sharp to find the sum of all elements of the array.
+            #region Question 20
+            // Write a program in C# Sharp to find the sum of all elements of the array.
 
+            int[]number = {10,20,30,40,50};
 
+            int result;
+            result = number.Sum(); 
 
+            Console.WriteLine($"the sum of all elements : {result} ");
 
 
-                #endregion
 
 
-                #region Question 21
-                // Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
+            #endregion
 
 
+            #region Question 21
+            // Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
 
-                #endregion
 
 
-                #region Question 22
-                // Write a program in C# Sharp to count the frequency of each element of an array.
 
+            #endregion
 
 
+            #region Question 22
+            // Write a program in C# Sharp to count the frequency of each element of an array.
 
 
-                #endregion
 
 
 
-                #region Question 23
-                // Write a program in C# Sharp to find maximum and minimum element in an array
+            #endregion
 
 
 
+            #region Question 23
+            // Write a program in C# Sharp to find maximum and minimum element in an array
 
 
 
-                #endregion
 
 
 
-                #region Question 24
-                // - Write a program in C# Sharp to find the second largest element in an array.
+            #endregion
 
 
 
+            #region Question 24
+            // - Write a program in C# Sharp to find the second largest element in an array.
 
 
 
-                #endregion
 
 
 
-                #region Question 25
-                // Consider an Array of Integer values with size N, having values as    
+            #endregion
 
 
 
+            #region Question 25
+            // Consider an Array of Integer values with size N, having values as    
 
 
-                #endregion
 
 
 
-                #region Question 26
-                // Given a list of space separated words, reverse the order of the words.
+            #endregion
 
 
 
+            #region Question 26
+            // Given a list of space separated words, reverse the order of the words.
 
 
-                #endregion
 
 
 
-                #region Question 27
-                // Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array.
-                // Now copy all the elements of first array on second array and print second array.
+            #endregion
 
 
 
+            #region Question 27
+            // Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array.
+            // Now copy all the elements of first array on second array and print second array.
 
 
-                #endregion
 
 
 
-                #region Question 28
-                // Write a Program to Print One Dimensional Array in Reverse Order
+            #endregion
 
 
 
+            #region Question 28
+            // Write a Program to Print One Dimensional Array in Reverse Order
 
 
-                #endregion
 
 
 
-                #region Question 29
+            #endregion
 
-                /*
-                 * ⦁	.Write a program that uses the ternary operator to check if the temperature is too hot,
-                too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold",
-                above 30 degrees is "Just Hot", and anything else is "Just Good".
-                 */
 
 
+            #region Question 29
 
+            /*
+             * ⦁	.Write a program that uses the ternary operator to check if the temperature is too hot,
+            too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold",
+            above 30 degrees is "Just Hot", and anything else is "Just Good".
+             */
 
 
 
 
-                #endregion
 
 
 
-                #region Question 30
-                // What will be the output of the C# code given below?
+            #endregion
 
 
 
+            #region Question 30
+            // What will be the output of the C# code given below?
 
 
 
-                #endregion
 
 
 
+            #endregion
 
 
 
@@ -950,7 +954,10 @@ namespace Demo_C44_G01_C_04
 
 
 
-            }
+
+
+
+        }
 
     }
 
