@@ -592,7 +592,7 @@ namespace Demo_C44_G01_C_04
             //for (int i = text.Length - 1; i >= 0; i--)
             //{
             //    reverseText += text[i];
-                
+
             //}
             //Console.Clear();
             //Console.WriteLine(reverseText);
@@ -605,8 +605,27 @@ namespace Demo_C44_G01_C_04
             #region  Question 14
             // - Write a program to allow the user to enter int and print the REVERSED of it.
 
+            Console.WriteLine("Please enter an integer: ");
+            string textNumber = Console.ReadLine();
+
+            string reversed = "";
+
+            for (int i = textNumber.Length - 1; i >= 0; i--)
+            {
+                reversed += textNumber[i];
+            }
+
+            int reversedNumber = int.Parse(reversed);
+            Console.WriteLine("Reversed Number: " + reversedNumber);
+
+
+
+
 
             #endregion
+
+
+
 
 
 
